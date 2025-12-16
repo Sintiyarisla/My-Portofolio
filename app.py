@@ -31,6 +31,12 @@ html, body {
     font-family: Inter, sans-serif;
 }
 
+/* Ensure anchors don't get underlined by host CSS after deploy */
+a, a:link, a:visited, a:hover, a:active {
+    text-decoration: none !important;
+    color: inherit !important;
+}
+
 /* -------------------- */
 /* 0. TOP FOOTER HERO */
 /* -------------------- */
@@ -210,7 +216,7 @@ html, body {
 .section {
     max-width: 1250px;
     margin: 70px auto;
-    padding: 0 20px;
+    padding: 0 28px;
 }
 
 h2 {
@@ -828,4 +834,5 @@ def main():
 
 
 if __name__ == "__main__":
+
     main()
