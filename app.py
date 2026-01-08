@@ -470,7 +470,7 @@ def render_about():
         <p style='font-size: 18px; color: var(--secondary); line-height: 1.7;'>
         I am continuously developing my technical abilities through coursework, internships, and self-directed learning, with hands-on experience in data collection, analysis, and visualization. I enjoy identifying patterns, predicting trends, and communicating insights using tools such as Python, R, Excel, Tableau, PHP, and CSS, and I am motivated to contribute to impactful, data-driven projects.</p>
         <p style='margin-top:14px'>
-        <a class='cta-link' href='https://drive.google.com/file/d/1sqTBzOJwMZYddfkS8DG8hUJ-phwqjRjk/view?usp=sharing' target='_blank'>View Full CV</a>
+        <a class='cta-link' href='https://drive.google.com/file/d/1KHd2MnFbcC4FakTCzBg7GAttullZ3n4f/view?usp=sharing' target='_blank'>View Full CV</a>
         </p>
         """, unsafe_allow_html=True)
 
@@ -836,3 +836,4 @@ def main():
 if __name__ == "__main__":
 
     main()
+
